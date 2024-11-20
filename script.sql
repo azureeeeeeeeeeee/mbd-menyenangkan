@@ -1,0 +1,7 @@
+CREATE DATABASE perpustakaan;
+
+CREATE TABLE buku (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    judul VARCHAR(255),
+    penulis VARCHAR(255)
+)
